@@ -3,7 +3,7 @@ body{
   text-align: center;
   margin: auto;
   padding: auto;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -27,7 +27,7 @@ margin-inline-end: 0px;
 }
 
 h2{
-  font-family:'Italiana', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 20px;
   margin: 2px
@@ -35,7 +35,7 @@ h2{
 }
 
 h3 {
-  font-family: 'Italiana', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.25em;
 }
 
@@ -53,7 +53,7 @@ li{
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
@@ -67,8 +67,8 @@ li{
 text-align: justify;
 }
 #menu_nav {
-  background-color: #756D60;
-  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   list-style-type: none;
   margin: 0px;
@@ -77,6 +77,8 @@ text-align: justify;
   flex-direction: row;
   justify-content: space-around;
   align-items:stretch;
+  text-decoration:none;
+}
 
 
 
@@ -140,7 +142,7 @@ a{
 }
 
 .caption {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-top: 0px;
   text-align: center;
 }
