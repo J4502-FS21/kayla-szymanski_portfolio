@@ -110,8 +110,8 @@ a{
 
 .photo {
   border: 0;
-  margin: 10px;
-  width: 85%;
+  margin: 1px;
+  width: 50%;
   min-width: 200px;
   max-width: 400px;
 }
@@ -120,15 +120,15 @@ a{
   opacity: 40%;
 }
 
-#photocontainer {
+.photocontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:flex-end;
 }
 
 .graphic {
   border: 0;
-  margin: 35px;
+  margin: 3px;
   width: 75%;
   min-width: 200px;
   max-width: 400px;
@@ -198,7 +198,7 @@ body{
     border-radius: 25%;
 }
 .option:hover{
-    background-color: white;
+    background-color: #F0F0F0;
   }
   .navigation{
     width: 80vw;
@@ -221,7 +221,7 @@ body{
     background-color: #756D60;
 }
 .next{
-    color: white;
+    color: #F0F0F0;
     background-color: #756D60;
 }
 
@@ -270,3 +270,13 @@ footer {
     display: none;
     flex-direction: column
   }
+
+  #gallery {
+   line-height:0;
+   -webkit-column-count:2; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
