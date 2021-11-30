@@ -8,6 +8,18 @@ body{
 
 }
 
+a.class1 {color:#F0F0F0;}
+a.class1:link  {text-decoration: none; color: #F0F0F0;}
+a.class1:visited {text-decoration: none; color: #F0F0F0;}
+a.class1:hover {text-decoration: none;; color:  #a8a8a8;}
+a.class1:active {text-decoration: none; color: #F0F0F0;}
+
+
+a.class2 {color:Black;}
+a.class2:link {text-decoration: none; color: Black;}
+a.class2:visited {text-decoration: none; color: Black;}
+a.class2:hover {text-decoration: none;; color:  #a8a8a8;}
+a.class2:active {text-decoration: none; color: Black;}
 h1{
   font-family: 'Playfair Display', serif;
   font-weight: 400;
